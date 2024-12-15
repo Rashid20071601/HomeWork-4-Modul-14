@@ -20,9 +20,6 @@ def initiate_db():
   connection.close()
 
 
-initiate_db()
-
-
 
 def get_all_products():
   connection = sqlite3.connect('database.db')
@@ -54,5 +51,6 @@ def insert_products():
   connection.commit()
   connection.close()
 
-
-# insert_products()
+if __name__ = '__main__'
+  insert_products()
+  initiate_db()
