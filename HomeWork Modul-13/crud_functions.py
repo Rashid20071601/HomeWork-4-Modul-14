@@ -52,5 +52,5 @@ def insert_products():
   connection.close()
 
 if __name__ = '__main__'
-  insert_products()
   initiate_db()
+  insert_products()
